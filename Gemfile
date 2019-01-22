@@ -18,6 +18,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'dotenv-rails'
   gem 'rspec-rails', '~> 3.5'
+  gem 'simplecov'
 end
 
 group :development do
