@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :todo_list do
-    title { "MyString" }
-    description { "MyText" }
+    title { Faker::Book.title }
+    description { Faker::BackToTheFuture.quote }
     status { false }
   end
 end
